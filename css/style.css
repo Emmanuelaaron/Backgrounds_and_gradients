@@ -1,0 +1,26 @@
+.upper-body {
+  background-image: url("../img/background-image.jpg");
+  max-width: 1440px;
+  width: 90vw;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 102%;
+  height: 70vh;
+}
+
+img {
+  width: 22.5vw;
+}
+
+.lower-body div {
+  float: left;
+}
+
+.lower-body {
+  height: 200px;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: -12px;
+  position: static;
+}
