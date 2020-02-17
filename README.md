@@ -3,7 +3,7 @@
 > This is  a clone of old an old version of the [Apple website webpage]().
 > It uses background photos well and the navbar at the top contains a gradient that I have been able to mimic
 
-![screenshot](./app_screenshot.png)
+![screenshot](./img/display.PNG)
 
 
 ## Built With
