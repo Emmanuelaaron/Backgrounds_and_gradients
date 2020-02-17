@@ -143,3 +143,38 @@ footer {
   width: 15px;
   margin-left: 10px;
 }
+
+.footer-left,
+.footer-right {
+  font-size: 0.8334em;
+  color: #6e6e6e;
+}
+
+.footer-left a,
+.footer-right a {
+  text-decoration: none;
+  color: rgb(42, 57, 187);
+}
+
+.footer-right {
+  width: 50%;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.footer-left {
+  width: 50%;
+  float: left;
+}
+
+footer {
+  width: 70%;
+  margin: 20px auto;
+  min-width: 980px;
+}
+
+.footer-right img {
+  width: 15px;
+  margin-left: 10px;
+}
