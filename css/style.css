@@ -24,3 +24,70 @@ img {
   margin-top: -12px;
   position: static;
 }
+
+li {
+  float: left;
+  height: 30px;
+  width: 103px;
+  border-right: 1px solid rgb(136, 136, 136);
+  text-align: center;
+  padding-top: 10px;
+  color: aliceblue;
+  cursor: pointer;
+  background: linear-gradient(rgb(136, 136, 136) 0%, rgb(85, 85, 85) 55%, rgb(136, 136, 136) 100%);
+}
+
+input {
+  background-color: rgb(136, 136, 136);
+  border: none;
+  width: 100px;
+  border-radius: 50px;
+  background-image: url("../img/índice-white.png");
+  background-repeat: no-repeat;
+  background-position: 3px center;
+}
+
+#left-nav {
+  border-radius: 5px 0 0 5px;
+}
+
+#right-nav {
+  border-radius: 0 5px 5px 0;
+}
+
+header {
+  width: 65%;
+  padding-top: 90px;
+  margin: 10px auto;
+}
+
+.contents {
+  width: 50%;
+  clear: both;
+  margin: 80px auto;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#img1 {
+  width: 55vw;
+  height: 7vw;
+  background-image: url("../img/what-will.png");
+  background-repeat: no-repeat;
+  background-position: 0 140%;
+}
+
+#img2 {
+  width: 60vw;
+}
+
+#img3 {
+  height: 6vw;
+  width: 55vw;
+  background-image: url("../img/watch.png");
+  background-position: 20% 180%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
