@@ -34,6 +34,10 @@ li {
   background: linear-gradient(rgb(136, 136, 136) 0%, rgb(85, 85, 85) 55%, rgb(136, 136, 136) 100%);
 }
 
+li:hover {
+  background: radial-gradient(circle, rgb(34, 34, 34) 0%, rgb(85, 85, 85) 100%);
+}
+
 ul {
   display: flex;
   width: 100%;
@@ -92,12 +96,52 @@ header {
 }
 
 #img3 {
-  height: 6vw;
-  width: 55vw;
+  height: 1.7rem;
+  width: 50rem;
   background-image: url("../img/watch.png");
-  background-position: 20% 180%;
+  background-position: top 0 left 0;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  margin-top: 20px;
+}
+
+#img3:hover {
+  background-position: top 100% left 0;
+}
+
+.footer-left,
+.footer-right {
+  font-size: 0.8334em;
+  color: #6e6e6e;
+}
+
+.footer-left a,
+.footer-right a {
+  text-decoration: none;
+  color: rgb(42, 57, 187);
+}
+
+.footer-right {
+  width: 50%;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.footer-left {
+  width: 50%;
+  float: left;
+}
+
+footer {
+  width: 70%;
+  margin: 20px auto;
+  min-width: 980px;
+}
+
+.footer-right img {
+  width: 15px;
+  margin-left: 10px;
 }
 
 .footer-left,
