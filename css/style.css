@@ -1,7 +1,6 @@
 .upper-body {
   background-image: url("../img/background-image.jpg");
-  max-width: 1440px;
-  width: 90vw;
+  width: 100%;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,25 +9,30 @@
 }
 
 img {
-  width: 22.5vw;
+  width: 100%;
 }
 
 .lower-body div {
-  float: left;
+  width: 25%;
 }
 
 .lower-body {
   height: 200px;
-  width: 90vw;
+  width: 100%;
   margin: 0 auto;
   margin-top: -12px;
-  position: static;
+  display: flex;
+}
+
+main {
+  width: 90vw;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 li {
-  float: left;
   height: 30px;
-  width: 103px;
+  width: 11%;
   border-right: 1px solid rgb(136, 136, 136);
   text-align: center;
   padding-top: 10px;
@@ -37,10 +41,19 @@ li {
   background: linear-gradient(rgb(136, 136, 136) 0%, rgb(85, 85, 85) 55%, rgb(136, 136, 136) 100%);
 }
 
+li:hover {
+  background: radial-gradient(circle, rgb(34, 34, 34) 0%, rgb(85, 85, 85) 100%);
+}
+
+ul {
+  display: flex;
+  width: 100%;
+}
+
 input {
   background-color: rgb(136, 136, 136);
   border: none;
-  width: 100px;
+  width: 80%;
   border-radius: 50px;
   background-image: url("../img/índice-white.png");
   background-repeat: no-repeat;
@@ -55,16 +68,20 @@ input {
   border-radius: 0 5px 5px 0;
 }
 
+nav {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 header {
-  width: 65%;
   padding-top: 90px;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
 .contents {
   width: 50%;
   clear: both;
-  margin: 80px auto;
+  margin: 0 auto;
   color: aliceblue;
   display: flex;
   flex-direction: column;
@@ -76,6 +93,7 @@ header {
   height: 7vw;
   background-image: url("../img/what-will.png");
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: 0 140%;
 }
 
@@ -84,10 +102,50 @@ header {
 }
 
 #img3 {
-  height: 6vw;
-  width: 55vw;
+  height: 1.7rem;
+  width: 50rem;
   background-image: url("../img/watch.png");
-  background-position: 20% 180%;
+  background-position: top 0 left 0;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  margin-top: 20px;
+}
+
+#img3:hover {
+  background-position: top 100% left 0;
+}
+
+.footer-left,
+.footer-right {
+  font-size: 0.8334em;
+  color: #6e6e6e;
+}
+
+.footer-left a,
+.footer-right a {
+  text-decoration: none;
+  color: rgb(42, 57, 187);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-right {
+  width: 50%;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.footer-left {
+  width: 50%;
+  float: left;
+}
+
+footer {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.footer-right img {
+  width: 15px;
+  margin-left: 10px;
 }
