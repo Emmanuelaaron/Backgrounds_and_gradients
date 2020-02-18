@@ -1,7 +1,6 @@
 .upper-body {
   background-image: url("../img/background-image.jpg");
-  max-width: 1440px;
-  min-width: 720px;
+  width: 100%;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,22 +9,30 @@
 }
 
 img {
-  width: 360px;
+  width: 100%;
+}
+
+.lower-body div {
+  width: 25%;
 }
 
 .lower-body {
   height: 200px;
-  width: 90vw;
+  width: 100%;
   margin: 0 auto;
   margin-top: -12px;
-  position: static;
-  min-width: 980px;
   display: flex;
+}
+
+main {
+  width: 90vw;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 li {
   height: 30px;
-  width: 110px;
+  width: 11%;
   border-right: 1px solid rgb(136, 136, 136);
   text-align: center;
   padding-top: 10px;
@@ -41,13 +48,12 @@ li:hover {
 ul {
   display: flex;
   width: 100%;
-  min-width: 720px;
 }
 
 input {
   background-color: rgb(136, 136, 136);
   border: none;
-  width: 100px;
+  width: 80%;
   border-radius: 50px;
   background-image: url("../img/índice-white.png");
   background-repeat: no-repeat;
@@ -119,6 +125,7 @@ header {
 .footer-right a {
   text-decoration: none;
   color: rgb(42, 57, 187);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .footer-right {
@@ -136,42 +143,6 @@ header {
 footer {
   width: 70%;
   margin: 20px auto;
-  min-width: 980px;
-}
-
-.footer-right img {
-  width: 15px;
-  margin-left: 10px;
-}
-
-.footer-left,
-.footer-right {
-  font-size: 0.8334em;
-  color: #6e6e6e;
-}
-
-.footer-left a,
-.footer-right a {
-  text-decoration: none;
-  color: rgb(42, 57, 187);
-}
-
-.footer-right {
-  width: 50%;
-  float: right;
-  display: flex;
-  align-items: center;
-}
-
-.footer-left {
-  width: 50%;
-  float: left;
-}
-
-footer {
-  width: 70%;
-  margin: 20px auto;
-  min-width: 980px;
 }
 
 .footer-right img {
